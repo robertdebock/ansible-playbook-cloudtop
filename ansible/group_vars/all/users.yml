@@ -1,7 +1,7 @@
 ---
 
 users_group_list:
-  - users
+  - name: users
 
 users_user_list:
   - name: robertdb
