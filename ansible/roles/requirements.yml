@@ -1,0 +1,19 @@
+---
+roles:
+  - robertdebock.bootstrap
+  - robertdebock.update
+  - robertdebock.digitalocean_agent
+  - robertdebock.sysstat
+  - robertdebock.auto_update
+  - robertdebock.ntp
+  - robertdebock.openssh
+  - robertdebock.fail2ban
+  - robertdebock.firewall
+  - robertdebock.postfix
+  - robertdebock.lvm
+  - robertdebock.filesystem
+  - robertdebock.mount
+  - robertdebock.users
+  - robertdebock.gnome
+  - robertdebock.tigervnc
+  - robertdebock.common

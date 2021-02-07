@@ -1,0 +1,8 @@
+---
+
+mount_requests:
+  - path: /home
+    src: /dev/data/home
+    state: mounted
+    fstype: ext4
+    mode: "0755"

@@ -1,0 +1,5 @@
+---
+
+filesystem_list:
+  - dev: /dev/data/home
+    fstype: ext4

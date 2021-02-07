@@ -1,0 +1,11 @@
+---
+
+lvm_volume_groups:
+  - name: data
+    pvs:
+      - /dev/sda
+
+lvm_logical_volumes:
+  - name: home
+    vg: data
+    size: 256G

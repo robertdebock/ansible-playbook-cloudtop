@@ -1,0 +1,4 @@
+---
+
+bootstrap_wait_for_host: yes
+bootstrap_timeout: 60

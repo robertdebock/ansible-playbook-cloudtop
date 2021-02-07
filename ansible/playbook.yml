@@ -1,0 +1,41 @@
+#!/usr/bin/env ansible-playbook
+---
+- name: create machines
+  hosts: localhost
+  gather_facts: no
+
+  tasks:
+    - name: apply terraform code
+      terraform:
+        project_path: ../terraform
+        state: "{{ terraform_state | default('present') }}"
+      register: terraform
+
+    - name: add webserver to inventory
+      add_host:
+        name: "{{ terraform.outputs.cloudtop_ip.value }}"
+
+- name: setup all nodes
+  hosts: all
+  become: yes
+  gather_facts: yes
+  any_errors_fatal: true
+
+  roles:
+    - role: robertdebock.bootstrap
+    # Resolving hosts is problematic, using cloud-init.yml.
+    # - role: robertdebock.common
+    - role: robertdebock.update
+    - role: robertdebock.digitalocean_agent
+    - role: robertdebock.sysstat
+    - role: robertdebock.auto_update
+    - role: robertdebock.ntp
+    - role: robertdebock.openssh
+    - role: robertdebock.fail2ban
+    - role: robertdebock.firewall
+    - role: robertdebock.postfix
+    # - role: robertdebock.lvm
+    # - role: robertdebock.filesystem
+    # - role: robertdebock.mount
+    - role: robertdebock.users
+    - role: robertdebock.gnome
