@@ -2,3 +2,4 @@
 
 firewall_services:
   - name: ssh
+  - name: 3389

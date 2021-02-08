@@ -39,3 +39,4 @@
     # - role: robertdebock.mount
     - role: robertdebock.users
     - role: robertdebock.gnome
+    - role: robertdebock.xrdp

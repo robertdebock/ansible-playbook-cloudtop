@@ -15,5 +15,4 @@ roles:
   - robertdebock.mount
   - robertdebock.users
   - robertdebock.gnome
-  - robertdebock.tigervnc
-  - robertdebock.common
+  - robertdebock.xrdp
