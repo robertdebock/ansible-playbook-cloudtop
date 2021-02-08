@@ -30,7 +30,7 @@ variable "region" {
 variable "dropletsize" {
   type    = string
   # default = "s-8vcpu-16gb"
-  default = "1gb"
+  default = "4gb"
 }
 
 variable "dropletimage" {

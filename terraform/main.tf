@@ -37,6 +37,12 @@ resource "digitalocean_firewall" "default" {
   }
 
   inbound_rule {
+    protocol         = "tcp"
+    port_range       = "3389"
+    source_addresses = ["0.0.0.0/0", "::/0"]
+  }
+
+  inbound_rule {
     protocol         = "icmp"
     source_addresses = ["0.0.0.0/0", "::/0"]
   }
@@ -61,7 +67,7 @@ resource "digitalocean_firewall" "default" {
 
 data "cloudflare_zones" "default" {
   filter {
-    name = "${var.domain}"
+    name = var.domain
   }
 }
 
