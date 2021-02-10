@@ -2,6 +2,7 @@
 
 users_group_list:
   - name: users
+  - name: wheel
 
 users_user_list:
   - name: robertdb

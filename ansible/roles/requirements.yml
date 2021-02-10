@@ -1,18 +1,16 @@
 ---
 roles:
-  - robertdebock.bootstrap
-  - robertdebock.update
-  - robertdebock.digitalocean_agent
-  - robertdebock.sysstat
   - robertdebock.auto_update
-  - robertdebock.ntp
-  - robertdebock.openssh
+  - robertdebock.bootstrap
+  - robertdebock.cron
+  - robertdebock.digitalocean_agent
   - robertdebock.fail2ban
   - robertdebock.firewall
-  - robertdebock.postfix
-  - robertdebock.lvm
-  - robertdebock.filesystem
-  - robertdebock.mount
-  - robertdebock.users
   - robertdebock.gnome
+  - robertdebock.ntp
+  - robertdebock.openssh
+  - robertdebock.postfix
+  - robertdebock.sysstat
+  - robertdebock.update
+  - robertdebock.users
   - robertdebock.xrdp
