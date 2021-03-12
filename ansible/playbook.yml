@@ -30,9 +30,9 @@
 
   roles:
     - role: robertdebock.bootstrap
-    # Resolving hosts is problematic, using cloud-init.yml.
-    # - role: robertdebock.common
     - role: robertdebock.update
+    - role: robertdebock.buildtools
+    - role: robertdebock.python_pip
     - role: robertdebock.digitalocean_agent
     - role: robertdebock.sysstat
     - role: robertdebock.auto_update
@@ -42,6 +42,16 @@
     - role: robertdebock.fail2ban
     - role: robertdebock.firewall
     - role: robertdebock.postfix
+    - role: robertdebock.docker
+    - role: robertdebock.libvirt
     - role: robertdebock.users
+    - role: robertdebock.git
+    - role: robertdebock.atom
+    - role: robertdebock.ansible
+    - role: robertdebock.ansible_lint
+    - role: robertdebock.molecule
+    - role: robertdebock.atom
+    - role: robertdebock.software
+    - role: robertdebock.hashicorp
     - role: robertdebock.gnome
     - role: robertdebock.xrdp

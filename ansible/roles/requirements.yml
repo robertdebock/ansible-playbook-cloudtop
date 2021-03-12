@@ -1,15 +1,26 @@
 ---
 roles:
+  - robertdebock.ansible
+  - robertdebock.ansible_lint
+  - robertdebock.atom
   - robertdebock.auto_update
   - robertdebock.bootstrap
+  - robertdebock.buildtools
   - robertdebock.cron
   - robertdebock.digitalocean_agent
+  - robertdebock.docker
   - robertdebock.fail2ban
   - robertdebock.firewall
+  - robertdebock.git
   - robertdebock.gnome
+  - robertdebock.hashicorp
+  - robertdebock.libvirt
   - robertdebock.ntp
+  - robertdebock.molecule
   - robertdebock.openssh
   - robertdebock.postfix
+  - robertdebock.python_pip
+  - robertdebock.software
   - robertdebock.sysstat
   - robertdebock.update
   - robertdebock.users

@@ -1,2 +1,4 @@
 roles/*
 !/roles/requirements.yml
+ssh_keys/*
+!ssh_keys/*.pub

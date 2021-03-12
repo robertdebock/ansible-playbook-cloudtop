@@ -1,0 +1,362 @@
+---
+
+
+git_username: robertdb
+git_user_name: Robert de Bock
+git_user_email: robert@meinit.nl
+
+git_repository_destination: /home/robertdb/Documents/github.com/robertdebock
+
+git_repositories:
+  - repo: ssh://git@github.com/robertdebock/ansible-role-ad_auth.git
+    dest: ansible-role-ad_auth
+  - repo: ssh://git@github.com/robertdebock/ansible-role-aide.git
+    dest: ansible-role-aide
+  - repo: ssh://git@github.com/robertdebock/ansible-role-alternatives.git
+    dest: ansible-role-alternatives
+  - repo: ssh://git@github.com/robertdebock/ansible-role-anaconda.git
+    dest: ansible-role-anaconda
+  - repo: ssh://git@github.com/robertdebock/ansible-role-ansible.git
+    dest: ansible-role-ansible
+  - repo: ssh://git@github.com/robertdebock/ansible-role-ansible_lint.git
+    dest: ansible-role-ansible_lint
+  - repo: ssh://git@github.com/robertdebock/ansible-role-apt_autostart.git
+    dest: ansible-role-apt_autostart
+  - repo: ssh://git@github.com/robertdebock/ansible-role-apt_repository.git
+    dest: ansible-role-apt_repository
+  - repo: ssh://git@github.com/robertdebock/ansible-role-ara.git
+    dest: ansible-role-ara
+  - repo: ssh://git@github.com/robertdebock/ansible-role-artifactory.git
+    dest: ansible-role-artifactory
+  - repo: ssh://git@github.com/robertdebock/ansible-role-at.git
+    dest: ansible-role-at
+  - repo: ssh://git@github.com/robertdebock/ansible-role-atom.git
+    dest: ansible-role-atom
+  - repo: ssh://git@github.com/robertdebock/ansible-role-auditd.git
+    dest: ansible-role-auditd
+  - repo: ssh://git@github.com/robertdebock/ansible-role-autofs.git
+    dest: ansible-role-autofs
+  - repo: ssh://git@github.com/robertdebock/ansible-role-auto_update.git
+    dest: ansible-role-auto_update
+  - repo: ssh://git@github.com/robertdebock/ansible-role-azure_cli.git
+    dest: ansible-role-azure_cli
+  - repo: ssh://git@github.com/robertdebock/ansible-role-backup.git
+    dest: ansible-role-backup
+  - repo: ssh://git@github.com/robertdebock/ansible-role-bios_update.git
+    dest: ansible-role-bios_update
+  - repo: ssh://git@github.com/robertdebock/ansible-role-bootstrap.git
+    dest: ansible-role-bootstrap
+  - repo: ssh://git@github.com/robertdebock/ansible-role-buildtools.git
+    dest: ansible-role-buildtools
+  - repo: ssh://git@github.com/robertdebock/ansible-role-ca.git
+    dest: ansible-role-ca
+  - repo: ssh://git@github.com/robertdebock/ansible-role-ca_certificates.git
+    dest: ansible-role-ca_certificates
+  - repo: ssh://git@github.com/robertdebock/ansible-role-cargo.git
+    dest: ansible-role-cargo
+  - repo: ssh://git@github.com/robertdebock/ansible-role-certbot.git
+    dest: ansible-role-certbot
+  - repo: ssh://git@github.com/robertdebock/ansible-role-cis.git
+    dest: ansible-role-cis
+  - repo: ssh://git@github.com/robertdebock/ansible-role-clamav.git
+    dest: ansible-role-clamav
+  - repo: ssh://git@github.com/robertdebock/ansible-role-cntlm.git
+    dest: ansible-role-cntlm
+  - repo: ssh://git@github.com/robertdebock/ansible-role-collectd.git
+    dest: ansible-role-collectd
+  - repo: ssh://git@github.com/robertdebock/ansible-role-common.git
+    dest: ansible-role-common
+  - repo: ssh://git@github.com/robertdebock/ansible-role-container_docs.git
+    dest: ansible-role-container_docs
+  - repo: ssh://git@github.com/robertdebock/ansible-role-core_dependencies.git
+    dest: ansible-role-core_dependencies
+  - repo: ssh://git@github.com/robertdebock/ansible-role-cron.git
+    dest: ansible-role-cron
+  - repo: ssh://git@github.com/robertdebock/ansible-role-cups.git
+    dest: ansible-role-cups
+  - repo: ssh://git@github.com/robertdebock/ansible-role-cve_2018_19788.git
+    dest: ansible-role-cve_2018_19788
+  - repo: ssh://git@github.com/robertdebock/ansible-role-debug.git
+    dest: ansible-role-debug
+  - repo: ssh://git@github.com/robertdebock/ansible-role-dhcpd.git
+    dest: ansible-role-dhcpd
+  - repo: ssh://git@github.com/robertdebock/ansible-role-digitalocean-agent.git
+    dest: ansible-role-digitalocean-agent
+  - repo: ssh://git@github.com/robertdebock/ansible-role-dns.git
+    dest: ansible-role-dns
+  - repo: ssh://git@github.com/robertdebock/ansible-role-dnsmasq.git
+    dest: ansible-role-dnsmasq
+  - repo: ssh://git@github.com/robertdebock/ansible-role-docker.git
+    dest: ansible-role-docker
+  - repo: ssh://git@github.com/robertdebock/ansible-role-docker_ce.git
+    dest: ansible-role-docker_ce
+  - repo: ssh://git@github.com/robertdebock/ansible-role-docker_compose.git
+    dest: ansible-role-docker_compose
+  - repo: ssh://git@github.com/robertdebock/ansible-role-dovecot.git
+    dest: ansible-role-dovecot
+  - repo: ssh://git@github.com/robertdebock/ansible-role-dsvpn.git
+    dest: ansible-role-dsvpn
+  - repo: ssh://git@github.com/robertdebock/ansible-role-earlyoom.git
+    dest: ansible-role-earlyoom
+  - repo: ssh://git@github.com/robertdebock/ansible-role-eclipse.git
+    dest: ansible-role-eclipse
+  - repo: ssh://git@github.com/robertdebock/ansible-role-environment.git
+    dest: ansible-role-environment
+  - repo: ssh://git@github.com/robertdebock/ansible-role-epel.git
+    dest: ansible-role-epel
+  - repo: ssh://git@github.com/robertdebock/ansible-role-etherpad.git
+    dest: ansible-role-etherpad
+  - repo: ssh://git@github.com/robertdebock/ansible-role-f5_ltm.git
+    dest: ansible-role-f5_ltm
+  - repo: ssh://git@github.com/robertdebock/ansible-role-facts.git
+    dest: ansible-role-facts
+  - repo: ssh://git@github.com/robertdebock/ansible-role-fail2ban.git
+    dest: ansible-role-fail2ban
+  - repo: ssh://git@github.com/robertdebock/ansible-role-filesystem.git
+    dest: ansible-role-filesystem
+  - repo: ssh://git@github.com/robertdebock/ansible-role-firewall.git
+    dest: ansible-role-firewall
+  - repo: ssh://git@github.com/robertdebock/ansible-role-forensics.git
+    dest: ansible-role-forensics
+  - repo: ssh://git@github.com/robertdebock/ansible-role-functions.git
+    dest: ansible-role-functions
+  - repo: ssh://git@github.com/robertdebock/ansible-role-git.git
+    dest: ansible-role-git
+  - repo: ssh://git@github.com/robertdebock/ansible-role-gitlab_runner.git
+    dest: ansible-role-gitlab_runner
+  - repo: ssh://git@github.com/robertdebock/ansible-role-glusterfs.git
+    dest: ansible-role-glusterfs
+  - repo: ssh://git@github.com/robertdebock/ansible-role-gnome.git
+    dest: ansible-role-gnome
+  - repo: ssh://git@github.com/robertdebock/ansible-role-go.git
+    dest: ansible-role-go
+  - repo: ssh://git@github.com/robertdebock/ansible-role-gotop.git
+    dest: ansible-role-gotop
+  - repo: ssh://git@github.com/robertdebock/ansible-role-grub.git
+    dest: ansible-role-grub
+  - repo: ssh://git@github.com/robertdebock/ansible-role-haproxy.git
+    dest: ansible-role-haproxy
+  - repo: ssh://git@github.com/robertdebock/ansible-role-hashicorp.git
+    dest: ansible-role-hashicorp
+  - repo: ssh://git@github.com/robertdebock/ansible-role-haveged.git
+    dest: ansible-role-haveged
+  - repo: ssh://git@github.com/robertdebock/ansible-role-hostname.git
+    dest: ansible-role-hostname
+  - repo: ssh://git@github.com/robertdebock/ansible-role-httpd.git
+    dest: ansible-role-httpd
+  - repo: ssh://git@github.com/robertdebock/ansible-role-investigate.git
+    dest: ansible-role-investigate
+  - repo: ssh://git@github.com/robertdebock/ansible-role-irslackd.git
+    dest: ansible-role-irslackd
+  - repo: ssh://git@github.com/robertdebock/ansible-role-java.git
+    dest: ansible-role-java
+  - repo: ssh://git@github.com/robertdebock/ansible-role-jenkins.git
+    dest: ansible-role-jenkins
+  - repo: ssh://git@github.com/robertdebock/ansible-role-jitsi.git
+    dest: ansible-role-jitsi
+  - repo: ssh://git@github.com/robertdebock/ansible-role-keepalived.git
+    dest: ansible-role-keepalived
+  - repo: ssh://git@github.com/robertdebock/ansible-role-kernel.git
+    dest: ansible-role-kernel
+  - repo: ssh://git@github.com/robertdebock/ansible-role-kubectl.git
+    dest: ansible-role-kubectl
+  - repo: ssh://git@github.com/robertdebock/ansible-role-libvirt.git
+    dest: ansible-role-libvirt
+  - repo: ssh://git@github.com/robertdebock/ansible-role-locale.git
+    dest: ansible-role-locale
+  - repo: ssh://git@github.com/robertdebock/ansible-role-logrotate.git
+    dest: ansible-role-logrotate
+  - repo: ssh://git@github.com/robertdebock/ansible-role-logwatch.git
+    dest: ansible-role-logwatch
+  - repo: ssh://git@github.com/robertdebock/ansible-role-luks.git
+    dest: ansible-role-luks
+  - repo: ssh://git@github.com/robertdebock/ansible-role-lvm.git
+    dest: ansible-role-lvm
+  - repo: ssh://git@github.com/robertdebock/ansible-role-lynis.git
+    dest: ansible-role-lynis
+  - repo: ssh://git@github.com/robertdebock/ansible-role-maintenance.git
+    dest: ansible-role-maintenance
+  - repo: ssh://git@github.com/robertdebock/ansible-role-mate.git
+    dest: ansible-role-mate
+  - repo: ssh://git@github.com/robertdebock/ansible-role-mediawiki.git
+    dest: ansible-role-mediawiki
+  - repo: ssh://git@github.com/robertdebock/ansible-role-memcached.git
+    dest: ansible-role-memcached
+  - repo: ssh://git@github.com/robertdebock/ansible-role-microsoft_repository_keys.git
+    dest: ansible-role-microsoft_repository_keys
+  - repo: ssh://git@github.com/robertdebock/ansible-role-minikube.git
+    dest: ansible-role-minikube
+  - repo: ssh://git@github.com/robertdebock/ansible-role-mitogen.git
+    dest: ansible-role-mitogen
+  - repo: ssh://git@github.com/robertdebock/ansible-role-modprobe.git
+    dest: ansible-role-modprobe
+  - repo: ssh://git@github.com/robertdebock/ansible-role-molecule.git
+    dest: ansible-role-molecule
+  - repo: ssh://git@github.com/robertdebock/ansible-role-moodle.git
+    dest: ansible-role-moodle
+  - repo: ssh://git@github.com/robertdebock/ansible-role-mount.git
+    dest: ansible-role-mount
+  - repo: ssh://git@github.com/robertdebock/ansible-role-mssql.git
+    dest: ansible-role-mssql
+  - repo: ssh://git@github.com/robertdebock/ansible-role-mysql.git
+    dest: ansible-role-mysql
+  - repo: ssh://git@github.com/robertdebock/ansible-role-natrouter.git
+    dest: ansible-role-natrouter
+  - repo: ssh://git@github.com/robertdebock/ansible-role-nextcloud.git
+    dest: ansible-role-nextcloud
+  - repo: ssh://git@github.com/robertdebock/ansible-role-nfsserver.git
+    dest: ansible-role-nfsserver
+  - repo: ssh://git@github.com/robertdebock/ansible-role-nginx.git
+    dest: ansible-role-nginx
+  - repo: ssh://git@github.com/robertdebock/ansible-role-node_red.git
+    dest: ansible-role-node_red
+  - repo: ssh://git@github.com/robertdebock/ansible-role-nomad.git
+    dest: ansible-role-nomad
+  - repo: ssh://git@github.com/robertdebock/ansible-role-npm.git
+    dest: ansible-role-npm
+  - repo: ssh://git@github.com/robertdebock/ansible-role-ntp.git
+    dest: ansible-role-ntp
+  - repo: ssh://git@github.com/robertdebock/ansible-role-obsproject.git
+    dest: ansible-role-obsproject
+  - repo: ssh://git@github.com/robertdebock/ansible-role-omsagent.git
+    dest: ansible-role-omsagent
+  - repo: ssh://git@github.com/robertdebock/ansible-role-openssh.git
+    dest: ansible-role-openssh
+  - repo: ssh://git@github.com/robertdebock/ansible-role-openssl.git
+    dest: ansible-role-openssl
+  - repo: ssh://git@github.com/robertdebock/ansible-role-openvpn.git
+    dest: ansible-role-openvpn
+  - repo: ssh://git@github.com/robertdebock/ansible-role-owncloud.git
+    dest: ansible-role-owncloud
+  - repo: ssh://git@github.com/robertdebock/ansible-role-packer.git
+    dest: ansible-role-packer
+  - repo: ssh://git@github.com/robertdebock/ansible-role-php.git
+    dest: ansible-role-php
+  - repo: ssh://git@github.com/robertdebock/ansible-role-php_fpm.git
+    dest: ansible-role-php_fpm
+  - repo: ssh://git@github.com/robertdebock/ansible-role-phpmyadmin.git
+    dest: ansible-role-phpmyadmin
+  - repo: ssh://git@github.com/robertdebock/ansible-role-postfix.git
+    dest: ansible-role-postfix
+  - repo: ssh://git@github.com/robertdebock/ansible-role-postgres.git
+    dest: ansible-role-postgres
+  - repo: ssh://git@github.com/robertdebock/ansible-role-powertools.git
+    dest: ansible-role-powertools
+  - repo: ssh://git@github.com/robertdebock/ansible-role-powertop.git
+    dest: ansible-role-powertop
+  - repo: ssh://git@github.com/robertdebock/ansible-role-python_pip.git
+    dest: ansible-role-python_pip
+  - repo: ssh://git@github.com/robertdebock/ansible-role-qemu.git
+    dest: ansible-role-qemu
+  - repo: ssh://git@github.com/robertdebock/ansible-role-reboot.git
+    dest: ansible-role-reboot
+  - repo: ssh://git@github.com/robertdebock/ansible-role-redis.git
+    dest: ansible-role-redis
+  - repo: ssh://git@github.com/robertdebock/ansible-role-release.git
+    dest: ansible-role-release
+  - repo: ssh://git@github.com/robertdebock/ansible-role-remi.git
+    dest: ansible-role-remi
+  - repo: ssh://git@github.com/robertdebock/ansible-role-restore.git
+    dest: ansible-role-restore
+  - repo: ssh://git@github.com/robertdebock/ansible-role-revealmd.git
+    dest: ansible-role-revealmd
+  - repo: ssh://git@github.com/robertdebock/ansible-role-roundcubemail.git
+    dest: ansible-role-roundcubemail
+  - repo: ssh://git@github.com/robertdebock/ansible-role-rpmfusion.git
+    dest: ansible-role-rpmfusion
+  - repo: ssh://git@github.com/robertdebock/ansible-role-rsyslog.git
+    dest: ansible-role-rsyslog
+  - repo: ssh://git@github.com/robertdebock/ansible-role-ruby.git
+    dest: ansible-role-ruby
+  - repo: ssh://git@github.com/robertdebock/ansible-role-rundeck.git
+    dest: ansible-role-rundeck
+  - repo: ssh://git@github.com/robertdebock/ansible-role-scl.git
+    dest: ansible-role-scl
+  - repo: ssh://git@github.com/robertdebock/ansible-role-selinux.git
+    dest: ansible-role-selinux
+  - repo: ssh://git@github.com/robertdebock/ansible-role-service.git
+    dest: ansible-role-service
+  - repo: ssh://git@github.com/robertdebock/ansible-role-snort.git
+    dest: ansible-role-snort
+  - repo: ssh://git@github.com/robertdebock/ansible-role-software.git
+    dest: ansible-role-software
+  - repo: ssh://git@github.com/robertdebock/ansible-role-sosreport.git
+    dest: ansible-role-sosreport
+  - repo: ssh://git@github.com/robertdebock/ansible-role-spamassassin.git
+    dest: ansible-role-spamassassin
+  - repo: ssh://git@github.com/robertdebock/ansible-role-squid.git
+    dest: ansible-role-squid
+  - repo: ssh://git@github.com/robertdebock/ansible-role-storage.git
+    dest: ansible-role-storage
+  - repo: ssh://git@github.com/robertdebock/ansible-role-stratis.git
+    dest: ansible-role-stratis
+  - repo: ssh://git@github.com/robertdebock/ansible-role-subversion.git
+    dest: ansible-role-subversion
+  - repo: ssh://git@github.com/robertdebock/ansible-role-sudo-pair.git
+    dest: ansible-role-sudo-pair
+  - repo: ssh://git@github.com/robertdebock/ansible-role-swap.git
+    dest: ansible-role-swap
+  - repo: ssh://git@github.com/robertdebock/ansible-role-sysctl.git
+    dest: ansible-role-sysctl
+  - repo: ssh://git@github.com/robertdebock/ansible-role-sysstat.git
+    dest: ansible-role-sysstat
+  - repo: ssh://git@github.com/robertdebock/ansible-role-systemd.git
+    dest: ansible-role-systemd
+  - repo: ssh://git@github.com/robertdebock/ansible-role-terraform.git
+    dest: ansible-role-terraform
+  - repo: ssh://git@github.com/robertdebock/ansible-role-test_connection.git
+    dest: ansible-role-test_connection
+  - repo: ssh://git@github.com/robertdebock/ansible-role-tftpd.git
+    dest: ansible-role-tftpd
+  - repo: ssh://git@github.com/robertdebock/ansible-role-tigervnc.git
+    dest: ansible-role-tigervnc
+  - repo: ssh://git@github.com/robertdebock/ansible-role-tlp.git
+    dest: ansible-role-tlp
+  - repo: ssh://git@github.com/robertdebock/ansible-role-tomcat.git
+    dest: ansible-role-tomcat
+  - repo: ssh://git@github.com/robertdebock/ansible-role-travis.git
+    dest: ansible-role-travis
+  - repo: ssh://git@github.com/robertdebock/ansible-role-tune2fs.git
+    dest: ansible-role-tune2fs
+  - repo: ssh://git@github.com/robertdebock/ansible-role-types.git
+    dest: ansible-role-types
+  - repo: ssh://git@github.com/robertdebock/ansible-role-ulimit.git
+    dest: ansible-role-ulimit
+  - repo: ssh://git@github.com/robertdebock/ansible-role-umask.git
+    dest: ansible-role-umask
+  - repo: ssh://git@github.com/robertdebock/ansible-role-unbound.git
+    dest: ansible-role-unbound
+  - repo: ssh://git@github.com/robertdebock/ansible-role-unowned_files.git
+    dest: ansible-role-unowned_files
+  - repo: ssh://git@github.com/robertdebock/ansible-role-update.git
+    dest: ansible-role-update
+  - repo: ssh://git@github.com/robertdebock/ansible-role-update_package_cache.git
+    dest: ansible-role-update_package_cache
+  - repo: ssh://git@github.com/robertdebock/ansible-role-upgrade.git
+    dest: ansible-role-upgrade
+  - repo: ssh://git@github.com/robertdebock/ansible-role-users.git
+    dest: ansible-role-users
+  - repo: ssh://git@github.com/robertdebock/ansible-role-vagrant.git
+    dest: ansible-role-vagrant
+  - repo: ssh://git@github.com/robertdebock/ansible-role-vault.git
+    dest: ansible-role-vault
+  - repo: ssh://git@github.com/robertdebock/ansible-role-vdo.git
+    dest: ansible-role-vdo
+  - repo: ssh://git@github.com/robertdebock/ansible-role-virtualbox.git
+    dest: ansible-role-virtualbox
+  - repo: ssh://git@github.com/robertdebock/ansible-role-xinetd.git
+    dest: ansible-role-xinetd
+  - repo: ssh://git@github.com/robertdebock/ansible-role-xrdp.git
+    dest: ansible-role-xrdp
+  - repo: ssh://git@github.com/robertdebock/ansible-role-y.git
+    dest: ansible-role-y
+  - repo: ssh://git@github.com/robertdebock/ansible-role-zabbix_agent.git
+    dest: ansible-role-zabbix_agent
+  - repo: ssh://git@github.com/robertdebock/ansible-role-zabbix_proxy.git
+    dest: ansible-role-zabbix_proxy
+  - repo: ssh://git@github.com/robertdebock/ansible-role-zabbix_repository.git
+    dest: ansible-role-zabbix_repository
+  - repo: ssh://git@github.com/robertdebock/ansible-role-zabbix_server.git
+    dest: ansible-role-zabbix_server
+  - repo: ssh://git@github.com/robertdebock/ansible-role-zabbix_web.git
+    dest: ansible-role-zabbix_web
