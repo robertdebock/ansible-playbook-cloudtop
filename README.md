@@ -14,15 +14,15 @@ You can connect to the machine using RDP.
 
 Please install these tools:
 
-- Ansible
-- Terraform
+- [Ansible](https://www.ansible.com/)
+- [Terraform](https://www.terraform.io/)
 
 ### Variables
 
 Please set these variables:
 
-- TF_VAR_do_token
-- TF_VAR_cloudflare_api_token
+- `TF_VAR_do_token`
+- `TF_VAR_cloudflare_api_token`
 
 ### SSH keys
 
