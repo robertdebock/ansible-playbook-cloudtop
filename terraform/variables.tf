@@ -35,17 +35,15 @@ variable "region" {
 
 variable "dropletsize" {
   type        = string
-  default     = "s-8vcpu-16gb"
-  description = "The size of the droplet (string). Default: s-8vcpu-16gb"
+  default     = "s-4vcpu-8gb"
+  description = "The size of the droplet (string). Default: s-4vcpu-8gb"
 }
 
 variable "dropletimage" {
   type        = map
   default     = {
     0 = "fedora-32-x64"
-    1 = "ubuntu-16-04-x64"
-    2 = "ubuntu-18-04-x64"
-    3 = "ubuntu-20-04-x64"
+    #1 = "ubuntu-20-04-x64"
   }
   description = "Distributions to start an instance with (map)."
 }
