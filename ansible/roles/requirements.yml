@@ -10,13 +10,17 @@ roles:
   - robertdebock.digitalocean_agent
   - robertdebock.docker
   - robertdebock.fail2ban
+  - robertdebock.filesystem
   - robertdebock.firewall
   - robertdebock.git
   - robertdebock.gnome
+  - robertdebock.grub
   - robertdebock.hashicorp
   - robertdebock.libvirt
+  - robertdebock.lvm
   - robertdebock.ntp
   - robertdebock.molecule
+  - robertdebock.mount
   - robertdebock.openssh
   - robertdebock.postfix
   - robertdebock.python_pip
