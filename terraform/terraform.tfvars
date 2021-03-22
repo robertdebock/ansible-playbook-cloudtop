@@ -3,8 +3,8 @@ domain             = "meinit.nl"
 projectdescription = "Roberts CloudTop."
 projectpurpose     = "Hosting a desktop environment."
 projectenvironment = "Production"
-region             = "ams3"
-dropletsize        = "s-8vcpu-16gb"
-dropletimage       = {
-  0 = "fedora-32-x64"
-}
+region             = "fra1"
+# dropletsize        = "s-8vcpu-16gb"
+dropletsize        = "s-4vcpu-8gb-amd"
+dropletimage       = "fedora-32-x64"
+volume             = "home"

@@ -40,10 +40,13 @@ variable "dropletsize" {
 }
 
 variable "dropletimage" {
-  type        = map
-  default     = {
-    0 = "fedora-32-x64"
-    #1 = "ubuntu-20-04-x64"
-  }
+  type        = string
+  default     = "fedora-32-x64"
   description = "Distributions to start an instance with (map)."
+}
+
+variable "volume" {
+  type    = string
+  default = "home"
+  description = "The name of an existing volume to mount under /home."
 }

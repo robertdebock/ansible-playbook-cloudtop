@@ -15,13 +15,22 @@ resource "digitalocean_ssh_key" "default" {
   public_key = file("../ssh_keys/id_rsa.pub")
 }
 
+data "digitalocean_volume" "default" {
+  name   = var.volume
+  region = var.region
+}
+
 resource "digitalocean_droplet" "default" {
-  count  = length(var.dropletimage)
-  image  = var.dropletimage[count.index]
-  name   = "${var.dropletimage[count.index]}-${var.projectname}.${var.domain}"
+  image  = var.dropletimage
+  name   = "${var.dropletimage}-${var.projectname}.${var.domain}"
   region = var.region
   size   = var.dropletsize
   ssh_keys = [digitalocean_ssh_key.default.fingerprint]
+}
+
+resource "digitalocean_volume_attachment" "default" {
+  droplet_id = digitalocean_droplet.default.id
+  volume_id  = data.digitalocean_volume.default.id
 }
 
 resource "digitalocean_firewall" "default" {
@@ -64,10 +73,9 @@ data "cloudflare_zones" "default" {
 }
 
 resource "cloudflare_record" "default" {
-  count  = length(var.dropletimage)
   zone_id = data.cloudflare_zones.default.zones[0].id
-  name    = "${var.dropletimage[count.index]}-${var.projectname}"
-  value   = digitalocean_droplet.default[count.index].ipv4_address
+  name    = "${var.dropletimage}-${var.projectname}"
+  value   = digitalocean_droplet.default.ipv4_address
   type    = "A"
   ttl     = 1
   proxied = false

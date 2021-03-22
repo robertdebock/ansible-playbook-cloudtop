@@ -17,6 +17,7 @@ roles:
   - robertdebock.grub
   - robertdebock.hashicorp
   - robertdebock.libvirt
+  - robertdebock.locale
   - robertdebock.lvm
   - robertdebock.ntp
   - robertdebock.molecule
