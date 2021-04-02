@@ -34,6 +34,8 @@
     - role: robertdebock.lvm
     - role: robertdebock.filesystem
     - role: robertdebock.mount
+    - role: robertdebock.grub
+    - role: robertdebock.locale
     - role: robertdebock.buildtools
     - role: robertdebock.python_pip
     - role: robertdebock.digitalocean_agent
@@ -51,7 +53,6 @@
     - role: robertdebock.git
     - role: robertdebock.atom
     - role: robertdebock.ansible
-    - role: robertdebock.ansible_lint
     - role: robertdebock.molecule
     - role: robertdebock.atom
     - role: robertdebock.software

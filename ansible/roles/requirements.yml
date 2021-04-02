@@ -14,8 +14,10 @@ roles:
   - robertdebock.firewall
   - robertdebock.git
   - robertdebock.gnome
+  - robertdebock.grub
   - robertdebock.hashicorp
   - robertdebock.libvirt
+  - robertdebock.locale
   - robertdebock.lvm
   - robertdebock.ntp
   - robertdebock.molecule
