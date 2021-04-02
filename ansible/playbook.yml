@@ -31,6 +31,9 @@
   roles:
     - role: robertdebock.bootstrap
     - role: robertdebock.update
+    - role: robertdebock.lvm
+    - role: robertdebock.filesystem
+    - role: robertdebock.mount
     - role: robertdebock.buildtools
     - role: robertdebock.python_pip
     - role: robertdebock.digitalocean_agent
