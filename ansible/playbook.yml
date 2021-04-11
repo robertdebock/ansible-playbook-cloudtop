@@ -50,7 +50,7 @@
     - role: robertdebock.docker
     - role: robertdebock.libvirt
     - role: robertdebock.users
-    - role: robertdebock.git
+    # - role: robertdebock.git
     - role: robertdebock.atom
     - role: robertdebock.ansible
     - role: robertdebock.molecule
@@ -59,3 +59,5 @@
     - role: robertdebock.hashicorp
     - role: robertdebock.gnome
     - role: robertdebock.xrdp
+    - role: robertdebock.zabbix_repository
+    - role: robertdebock.zabbix_agent

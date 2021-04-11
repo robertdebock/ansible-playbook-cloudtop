@@ -360,14 +360,10 @@ git_repositories:
     dest: ansible-role-zabbix_web
   - repo: ssh://git@github.com/robertdebock/ansible-collection-roles.git
     dest: ansible-collection-roles
-  - repo: ssh://git@github.com/robertdebock/ansible-collection-rundeck.git
-    dest: ansible-collection-rundeck
   - repo: ssh://git@github.com/robertdebock/ansible-generator.git
     dest: ansible-generator
   - repo: ssh://git@github.com/robertdebock/ansible-integration.git
     dest: ansible-integration
-  - repo: ssh://git@github.com/robertdebock/ansible-playbook-bios_update.git
-    dest: ansible-playbook-bios_update
   - repo: ssh://git@github.com/robertdebock/ansible-playbook-cloudtop.git
     dest: ansible-playbook-cloudtop
   - repo: ssh://git@github.com/robertdebock/ansible-playbook-haproxy.git

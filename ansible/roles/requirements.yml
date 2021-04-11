@@ -30,3 +30,5 @@ roles:
   - robertdebock.update
   - robertdebock.users
   - robertdebock.xrdp
+  - robertdebock.zabbix_repository
+  - robertdebock.zabbix_agent

@@ -1,0 +1,4 @@
+---
+
+zabbix_agent_server_address: zabbix-server.meinit.nl
+zabbix_agent_server_active_address: zabbix-server.meinit.nl
