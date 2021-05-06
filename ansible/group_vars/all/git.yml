@@ -312,6 +312,8 @@ git_repositories:
     dest: ansible-role-tomcat
   - repo: ssh://git@github.com/robertdebock/ansible-role-travis.git
     dest: ansible-role-travis
+  - repo: ssh://git@github.com/robertdebock/ansible-role-turn.git
+    dest: ansible-role-turn
   - repo: ssh://git@github.com/robertdebock/ansible-role-tune2fs.git
     dest: ansible-role-tune2fs
   - repo: ssh://git@github.com/robertdebock/ansible-role-types.git
