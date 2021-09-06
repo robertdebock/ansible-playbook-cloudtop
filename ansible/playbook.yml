@@ -51,7 +51,7 @@
     - role: robertdebock.libvirt
     - role: robertdebock.users
     # - role: robertdebock.git
-    - role: robertdebock.atom
+    # - role: robertdebock.atom
     - role: robertdebock.ansible
     - role: robertdebock.molecule
     - role: robertdebock.atom
