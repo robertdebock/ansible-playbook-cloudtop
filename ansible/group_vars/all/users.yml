@@ -15,3 +15,10 @@ users_user_list:
     password: "$6$JlOa9mhjxIlnLS/d$144HT.yRDurwQzoJKqqYoCwlJIF7QQnQK9iOUF6N1JSkqks0qTdgVIDaWD3cPPoiNMljEWaiUx.8Ui.Dz6YLn/"
     manage_ssh_key: yes
     copy_private_key: yes
+  - name: sjorsb
+    group: users
+    groups: wheel,docker,libvirt
+    cron_allow: yes
+    sudo_options: "ALL=(ALL) NOPASSWD: ALL"
+    authorized_keys:
+      - "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFTDqjwBpzfVHmwOqUsv3tPrS35ZachsNYUFXPC/gsZx"
