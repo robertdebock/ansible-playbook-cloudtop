@@ -41,7 +41,7 @@ variable "dropletsize" {
 
 variable "dropletimage" {
   type        = string
-  default     = "fedora-32-x64"
+  default     = "fedora-35-x64"
   description = "Distributions to start an instance with (map)."
 }
 

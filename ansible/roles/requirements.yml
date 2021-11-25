@@ -4,11 +4,13 @@ roles:
   - robertdebock.ansible_lint
   - robertdebock.atom
   - robertdebock.auto_update
+  - robertdebock.azure_cli
   - robertdebock.bootstrap
   - robertdebock.buildtools
   - robertdebock.cron
   - robertdebock.digitalocean_agent
   - robertdebock.docker
+  - robertdebock.epel
   - robertdebock.fail2ban
   - robertdebock.filesystem
   - robertdebock.firewall

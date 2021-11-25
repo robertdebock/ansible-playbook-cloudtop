@@ -30,6 +30,7 @@
 
   roles:
     - role: robertdebock.bootstrap
+    - role: robertdebock.epel
     - role: robertdebock.update
     - role: robertdebock.lvm
     - role: robertdebock.filesystem
@@ -50,14 +51,14 @@
     - role: robertdebock.docker
     - role: robertdebock.libvirt
     - role: robertdebock.users
-    # - role: robertdebock.git
-    # - role: robertdebock.atom
+    - role: robertdebock.git
     - role: robertdebock.ansible
     - role: robertdebock.molecule
     - role: robertdebock.atom
     - role: robertdebock.software
+    # - role: robertdebock.azure_cli
     - role: robertdebock.hashicorp
     - role: robertdebock.gnome
     - role: robertdebock.xrdp
-    - role: robertdebock.zabbix_repository
-    - role: robertdebock.zabbix_agent
+    # - role: robertdebock.zabbix_repository
+    # - role: robertdebock.zabbix_agent
