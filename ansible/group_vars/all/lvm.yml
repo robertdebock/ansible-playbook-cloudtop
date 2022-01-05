@@ -8,4 +8,4 @@ lvm_volume_groups:
 lvm_logical_volumes:
   - name: home
     vg: data
-    size: "2G"
+    size: "100%FREE"
