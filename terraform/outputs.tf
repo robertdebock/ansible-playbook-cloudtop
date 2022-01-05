@@ -1,3 +1,4 @@
 output "cloudtop_hostnames" {
-  value = cloudflare_record.default.*.hostname
+  description = "The hostnames as generated."
+  value       = cloudflare_record.default.*.hostname
 }
