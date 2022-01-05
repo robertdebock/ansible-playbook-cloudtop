@@ -56,9 +56,6 @@
     - role: robertdebock.molecule
     - role: robertdebock.atom
     - role: robertdebock.software
-    # - role: robertdebock.azure_cli
     - role: robertdebock.hashicorp
     - role: robertdebock.gnome
     - role: robertdebock.xrdp
-    # - role: robertdebock.zabbix_repository
-    # - role: robertdebock.zabbix_agent

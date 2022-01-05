@@ -4,7 +4,6 @@ roles:
   - robertdebock.ansible_lint
   - robertdebock.atom
   - robertdebock.auto_update
-  - robertdebock.azure_cli
   - robertdebock.bootstrap
   - robertdebock.buildtools
   - robertdebock.cron
@@ -32,5 +31,3 @@ roles:
   - robertdebock.update
   - robertdebock.users
   - robertdebock.xrdp
-  - robertdebock.zabbix_repository
-  - robertdebock.zabbix_agent
