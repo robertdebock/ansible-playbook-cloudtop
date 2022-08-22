@@ -54,7 +54,6 @@
     - role: robertdebock.git
     - role: robertdebock.ansible
     - role: robertdebock.molecule
-    - role: robertdebock.atom
     - role: robertdebock.software
     - role: robertdebock.hashicorp
     - role: robertdebock.gnome

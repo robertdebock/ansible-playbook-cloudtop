@@ -74,7 +74,7 @@ data "cloudflare_zones" "default" {
 
 resource "cloudflare_record" "default" {
   zone_id = data.cloudflare_zones.default.zones[0].id
-  name    = "${var.dropletimage}-${var.projectname}"
+  name    = "${var.projectname}"
   value   = digitalocean_droplet.default.ipv4_address
   type    = "A"
   ttl     = 1

@@ -2,7 +2,6 @@
 roles:
   - robertdebock.ansible
   - robertdebock.ansible_lint
-  - robertdebock.atom
   - robertdebock.auto_update
   - robertdebock.bootstrap
   - robertdebock.buildtools
