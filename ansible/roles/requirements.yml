@@ -13,6 +13,7 @@ roles:
   - robertdebock.filesystem
   - robertdebock.firewall
   - robertdebock.git
+  - robertdebock.gitlab_runner
   - robertdebock.gnome
   - robertdebock.grub
   - robertdebock.hashicorp

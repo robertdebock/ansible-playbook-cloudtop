@@ -13,14 +13,12 @@
 
     - name: add servers to inventory
       add_host:
-        name: "{{ item }}"
-      loop: "{{ terraform.outputs.cloudtop_hostnames.value }}"
+        name: "{{ terraform.outputs.cloudtop_hostnames.value }}"
 
     - name: wait for port 22
       wait_for:
-        host: "{{ item }}"
+        host: "{{ terraform.outputs.cloudtop_hostnames.value }}"
         port: 22
-      loop: "{{ terraform.outputs.cloudtop_hostnames.value }}"
 
 - name: setup all nodes
   hosts: all
@@ -32,9 +30,6 @@
     - role: robertdebock.bootstrap
     - role: robertdebock.epel
     - role: robertdebock.update
-    - role: robertdebock.lvm
-    - role: robertdebock.filesystem
-    - role: robertdebock.mount
     - role: robertdebock.grub
     - role: robertdebock.locale
     - role: robertdebock.buildtools
@@ -52,6 +47,7 @@
     - role: robertdebock.libvirt
     - role: robertdebock.users
     - role: robertdebock.git
+    - role: robertdebock.gitlab_runner
     - role: robertdebock.ansible
     - role: robertdebock.molecule
     - role: robertdebock.software
