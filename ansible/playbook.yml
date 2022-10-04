@@ -43,9 +43,9 @@
     - role: robertdebock.fail2ban
     - role: robertdebock.firewall
     - role: robertdebock.postfix
+    - role: robertdebock.users
     - role: robertdebock.docker
     - role: robertdebock.libvirt
-    - role: robertdebock.users
     - role: robertdebock.git
     - role: robertdebock.gitlab_runner
     - role: robertdebock.ansible
