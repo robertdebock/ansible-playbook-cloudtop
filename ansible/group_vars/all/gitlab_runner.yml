@@ -1,5 +1,3 @@
 ---
 
-gitlab_runner_token: "GR134894168FXYTMjgLs-tnaJpCd7"
-
-gitlab_runner_version: "15.2.2"
+gitlab_runner_registration_token: "GR134894168FXYTMjgLs-tnaJpCd7"
