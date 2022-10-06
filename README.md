@@ -1,9 +1,9 @@
-# CloudTop - My desktop in the cloud.
+# CloudTop - My desktop in the cloud
 
 A repository to start and setup a "cloud desktop". Feature include:
 
 - Spinning up resources in DigitalOcean.
-- Exposing a DNS name using CloudFlare.
+- Exposing a DNS name using AWS Route53.
 - Installing ansible, atom, molecule, gnome.
 
 You can connect to the machine using RDP.
@@ -58,7 +58,8 @@ Please install these tools:
 Please set these variables:
 
 - `TF_VAR_do_token`
-- `TF_VAR_cloudflare_api_token`
+- `AWS_ACCESS_KEY_ID`
+- `AWS_SECRET_ACCESS_KEY`
 
 ### SSH keys
 

@@ -1,0 +1,7 @@
+---
+
+cron_jobs:
+  - name: docker_system_prune
+    hour: 3
+    job: "docker system prune --all --force"
+    user: root
